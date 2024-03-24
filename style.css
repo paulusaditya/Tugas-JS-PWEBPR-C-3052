@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    width: 438px;
+    height: 47px;
+    top: 200px;
+    left: 600px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+
+}
+
+.container-1 {
+    width: 610px;
+    height: 329px;
+    top: 260px;
+    left: 500px;
+    gap: 0px;
+    border-radius: 30px;
+    opacity: 0px;
+    background-color: #DBDBDB;
+    position: relative;
+
+}
+
+.container-1 img {
+    width: 219px;
+    height: 219px;
+    left: 200px;
+    top: -50px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+
+}
+
+.container-2 {
+    width:475px;
+    height:126px;
+    gap: 29px;
+    opacity: 0px;
+    text-align: center;
+    position: relative;
+    left: 70px;;
+}
+
+.desc {
+    width: 475px;
+    height: 56px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+    background-color: #FEEEE2;
+    top: -80px;
+    position: relative;
+}
+
+.desc p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+.iya {
+    width: 157px;
+    height: 41px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    background-color: #6FD240;
+    border: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+.iya:hover {
+    background-color: #EBFF00;
+}
+
+.tidak {
+    width: 157px;
+    height: 41px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    background-color: #E12E2E;
+    border: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color : white;
+}
+
+.tidak:hover {
+    background-color: #EBFF00;
+}
+
+.refresh {
+    width: 157px;
+    height: 41px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    background-color: #DBDBDB;
+    border: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color : black;
+    cursor: pointer;
+}
+.refresh:hover {
+    background-color: #EBFF00;
+}
+
+.tombol {
+    display: flex;
+    justify-content:space-evenly;
+    position: relative;
+    top: -50px;
+}
